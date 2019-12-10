@@ -1,0 +1,31 @@
+.contacts {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.contact {
+    flex: 1
+}
+
+.messages {
+    background: white;
+    flex: 6;
+    color: black
+}
+.form {
+  flex: 1;
+    flex-direction: column;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.form input {
+    width: 100%;
+}
+.form textarea {
+    width: 100%;
+}
+.form button {
+    height: 30px;
+}
